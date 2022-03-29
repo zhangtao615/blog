@@ -1,0 +1,7 @@
+export const GET_ARTICLE_LIST = 'get_article_list'
+export const INIT_ARTICLE_LIST = 'init_article_list'
+export const SEARCH_ARTICLE = 'search_article'
+export const LOGIN_SUCCESS = 'login_success'
+export const IS_LOGIN = 'is_login'
+export const LOGOUT = 'logout'
+export const UPDATE_INFO = 'update_info'

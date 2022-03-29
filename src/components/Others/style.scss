@@ -1,0 +1,103 @@
+.others {
+  width: 300px;
+  margin:20px 0 0 20px;
+  .write-article, .blog-management {
+    height: 60px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    &-btn {
+      width: 80px;
+      height: 40px;
+      font-size: 16px;
+      background:rgb(255,78,106);
+      color: #ffffff;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+      &:hover {
+        background:rgba(255,78,106, .8);
+      }
+    }
+  }
+  .visitor {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    &-item {
+      text-align: center;
+      cursor: pointer;
+      margin-top: 5px;
+      color: black;
+    }
+    &-avatar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 64px;
+      transform: translateX();
+      & > img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+      }
+    }
+    &-name {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+    }
+    &-personal {
+      & > a {
+        color: black
+      }
+    }
+    &-operation {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      .login,
+      .reg {
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #ff4e6a;
+        border-radius: 3px;
+        color: #ff4e6a;
+        &:hover {
+          background: rgba(255,78,106, .1);
+        }
+      }
+      .login {
+        margin-right: 5px;
+      }
+      .reg {
+        margin-left: 5px;
+      }
+    }
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    width: 56px;
+    height: 56px;
+    background-color: #ff4e6a;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

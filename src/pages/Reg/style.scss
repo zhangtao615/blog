@@ -1,0 +1,67 @@
+.reg-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    width: 300px;
+    min-height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 40px;
+    &-header {
+      font-size: 16px;
+      height: 40px;
+      line-height: 30px;
+      margin-top: 20px;
+    }
+    &-operation {
+      margin-top: 30px;
+      &-password,
+      &-username {
+        width: 100%;
+        margin-bottom: 10px;
+        position: relative;
+        .icon {
+          position: absolute;
+          left: 8px;
+          top: 4px;
+        }
+        .ipt {
+          height: 38px;
+          width: 100%;
+          outline: none;
+          border: 1px solid #D9D9D9;
+          border-radius: 5px;
+          padding: 8.4px 28px;
+          box-sizing: border-box;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      &-tips {
+        margin:0 0 10px 0;
+        font-size: 10px;
+        color: red;
+      }
+      &-submit {
+        overflow: hidden;
+        margin-top: 30px;
+        &-btn {
+          width: 100%;
+          height: 38px;
+          border-radius: 5px;
+          border: none;
+          background-color: #ff4e6a;
+          color: #fff;
+          outline: none;
+          &:hover {
+            background: rgba(255, 78, 106, 0.8);
+          }
+        }
+      }
+    }
+  }
+}

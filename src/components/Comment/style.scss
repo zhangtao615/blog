@@ -1,0 +1,39 @@
+.comment-wrapper {
+  .input-comment {
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #fafbfc;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    & > input {
+      width: 95%;
+      outline: none;
+      height: 36px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      padding: 5px 20px;
+      color: #17181a;
+      margin-bottom: 10px;
+    }
+    &-btn {
+      width: 64px;
+      height: 32px;
+      background-color: #ff4e6a;
+      border: none;
+      color: #fafbfc;
+      border-radius: 3px;
+      outline: none;
+      position: absolute;
+      right: 42px;
+      bottom: 10px;
+      &:disabled {
+        background:rgba(255,78,106, .6);
+        pointer-events: none;
+      }
+    }
+  }
+}
